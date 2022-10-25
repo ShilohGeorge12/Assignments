@@ -1,0 +1,159 @@
+body{
+    width: 100%;
+    margin: 0px; padding: 0px; 
+    background-color: #f8f8ff;
+    font-size: 16px; font-family: century;
+}
+
+header{
+    width: 70%;
+    height: 250px;
+    margin: 0px auto;
+    background: rgb(0, 0, 0, 0.6);
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0, 0, 0, 0.4);
+}
+
+header ul li{
+    display: flex;
+    margin: 15px 0px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 15px;
+    transition: all .5s ease;
+}
+
+header ul li a:hover{
+    color: #000;
+    background: #fff;
+    box-shadow: 0 0 10px #fff;
+}
+
+#pic{
+    width: 200px;
+    margin-right: 20px;
+    border: 1px solid #000;
+    float: right;
+    border-radius: 100px;
+}
+
+.fig{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    color: #f8f8ff;
+}
+
+.fig h1{
+    text-transform: uppercase;
+}
+
+.btn{
+    height: 20px;
+    border: 1px solid #fff;
+}
+
+.btn a{
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background: #fff;
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff;
+}
+
+main{
+    display: block;
+    width: 100%;
+    font-size: 1em;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    text-align: justify;
+    margin: 5px auto;
+}
+
+.center{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    height: 300px;
+    border: 1px solid #000;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(255, 45, 45) 50%, #fff 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+
+.column:hover{
+    background-position: left bottom;
+    color: #fff;
+    box-shadow: 0 0 20px rgb(255, 45, 45);
+}
+
+.column ul{
+    list-style:square;
+}
+
+.column ul li{
+    line-height: 30px;
+}
+
+.service{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+.contact{
+    display: flex;
+    height: 50px;
+    width: 70%;
+    text-align: justify;
+    background: rgb(0, 0, 0, 0.6);
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.contact p{
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.contact p a{
+    color: #f8f8ff;
+    text-decoration: none;
+}

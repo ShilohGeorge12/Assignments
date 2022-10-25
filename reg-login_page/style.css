@@ -1,0 +1,123 @@
+*{
+    margin: 0px; padding: 0px; box-sizing: border-box;
+}
+body{
+    margin: 0px; padding: 0px;
+    font-size: 16px; font-family: Helvetica, sans-serif;
+    width: 50%;
+    margin: 0px auto;
+    box-sizing: border-box;
+    background: #3c3939;
+    color: #fff;
+}
+
+header{
+    width: 100%;
+    margin-top: 20px;
+    height: 60px;
+    display: block;
+    text-align: center;
+}
+
+header h1{
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 5px #f8f8ff;
+}
+
+main{
+    width: 80%;
+    margin: 0px auto; margin-top: 20px; margin-bottom: 0px;
+    display: block;
+    height: 470px;
+    font-size: 1.1em;
+    box-sizing: border-box;
+    background: rgb(0, 0, 0, 0.4);
+    box-shadow: 1px 2px 10px 5px rgb(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+main form{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+form .A input{
+    width: 80%;
+    margin: 5px auto;
+    border-radius: 5px;
+    font-size: .8em; color: #3c3939;
+    cursor: pointer;
+}
+
+main form .A input[type="text"],.A input[type="email"], .A input[type="number"]{
+    border: 1px solid transparent;
+    outline-color: transparent;
+}
+
+.A input[type="text"] ,.A input[type="email"], .A input[type="number"]{
+    height: 30px;
+    border: 3px solid #fff;
+}
+
+form .B select{
+    width: 80%;
+    height: 30px;
+    margin: 5px auto;
+    border-radius: 5px;
+    font-size: .8em; color: #3c3939;
+    border: 1px solid transparent;
+    outline-color: transparent;
+    cursor: pointer;
+}
+
+form .C input{
+    width: 40%;
+    height: 30px;
+    margin: 5px auto;
+    border-radius: 5px;
+    font-size: .8em; color: #3c3939;
+    border: 1px solid transparent;
+    outline-color: transparent;
+    cursor: pointer;
+}
+
+.block{
+    margin: 10px 0px;
+    text-align: center;
+    display: block;
+}
+
+.block label{
+    display: block;
+    width: 100%;
+}
+
+.cl{
+    width: 50%;
+    margin: 0px auto;
+}
+
+main button{
+    display: block;
+    width: 10%;
+    height: 27px;
+    margin: 0px auto;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+main button a{
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #3c3939;
+}
+
+main hr{
+    display: block;
+    width: 70%;
+    margin: 10px auto;
+    border-color: #fff;
+    outline: none;
+}
