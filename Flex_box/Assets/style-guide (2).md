@@ -30,7 +30,11 @@ Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
 
 - Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Weights: 400
+=======
+- Weights: 400;
+>>>>>>> 0c4ede3dcf4d87a9791f76240b9c43fa99f0e489
 =======
 - Weights: 400;
 >>>>>>> 0c4ede3dcf4d87a9791f76240b9c43fa99f0e489
